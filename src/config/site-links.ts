@@ -9,11 +9,14 @@
  * FOUNDERS — name + LinkedIn profile
  * ------------------------------------------------------------------------ */
 export const FOUNDERS = [
-  // TODO: replace with real profile
-  { name: "Jai Lakshmi", linkedin: "https://www.linkedin.com/in/jai-lakshmi/" },
-  // TODO: replace with real profile
+  {
+    name: "Jai Lakshmi",
+    img: "/images/members/jai-lakshmi.svg",
+    linkedin: "https://www.linkedin.com/in/jai-lakshmi/",
+  },
   {
     name: "Ram Pravesh Bharti",
+    img: "/images/members/ram-pravesh-bharti.svg",
     linkedin: "https://www.linkedin.com/in/ram-pravesh-bharti/",
   },
 ];
@@ -22,34 +25,42 @@ export const FOUNDERS = [
  * TEAM — name + role + LinkedIn profile
  * ------------------------------------------------------------------------ */
 export const TEAM = [
-  // TODO: replace with real profile
-  { name: "Gokul", role: "Director", linkedin: "https://www.linkedin.com/in/gokulbadrappan/" },
-  // TODO: replace with real profile
+  {
+    name: "Gokul",
+    role: "Director",
+    img: "/images/members/gokul.svg",
+    linkedin: "https://www.linkedin.com/in/gokulbadrappan/",
+  },
   {
     name: "Ayush",
     role: "Event Management Lead",
+    img: "/images/members/ayush.svg",
     linkedin: "https://www.linkedin.com/in/ayush-aman-a21743258/",
   },
-  // TODO: replace with real profile
   {
     name: "Rishab",
     role: "Social Media Lead",
+    img: "/images/members/rishab.svg",
     linkedin: "https://www.linkedin.com/in/rishabh-wasan/",
   },
-  // TODO: replace with real profile
   {
     name: "Harshith",
     role: "Designer Lead",
+    img: "/images/members/harshith.svg",
     linkedin: "https://www.linkedin.com/in/harshithkolaparthi/",
   },
-  // TODO: replace with real profile
   {
     name: "Arpan",
     role: "Video Editing Lead",
+    img: "/images/members/arpan.svg",
     linkedin: "https://www.linkedin.com/in/",
   },
-  // TODO: replace with real profile
-  { name: "Nameesh", role: "R&D Lead", linkedin: "https://www.linkedin.com/in/nameesh-kj/" },
+  {
+    name: "Nameesh",
+    role: "R&D Lead",
+    img: "/images/members/nameesh.svg",
+    linkedin: "https://www.linkedin.com/in/nameesh-kj/",
+  },
 ];
 
 /* ---------------------------------------------------------------------------

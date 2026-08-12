@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Harshith profile">
+  <rect width="200" height="200" fill="#111827"/>
+  <circle cx="100" cy="74" r="38" fill="#d1d5db"/>
+  <path d="M48 164c10-28 34-42 52-42s42 14 52 42" fill="#e5e7eb"/>
+  <path d="M66 58c8-24 60-24 68 0" fill="none" stroke="#9ca3af" stroke-width="8" stroke-linecap="round"/>
+</svg>

@@ -274,7 +274,12 @@ function Index() {
               {FOUNDERS.map((f, i) => (
                 <Reveal key={f.name} delay={i * 100}>
                   <div className="rounded-2xl border border-border p-8 md:p-10">
-                    <div className="h-20 w-20 rounded-full border border-border bg-secondary" />
+                    <img
+                      src={f.img}
+                      alt={f.name}
+                      loading="lazy"
+                      className="h-20 w-20 rounded-full border border-border object-cover bg-secondary"
+                    />
                     <div className="mt-8 flex items-center gap-4">
                       <p className="font-serif text-4xl">{f.name}</p>
                       <a
@@ -302,7 +307,12 @@ function Index() {
               {TEAM.map((m, i) => (
                 <Reveal key={m.name} delay={i * 60}>
                   <div className="flex h-full items-center gap-4 bg-background px-6 py-7 transition-colors duration-300 hover:bg-secondary">
-                    <div className="h-10 w-10 shrink-0 rounded-full border border-border bg-secondary" />
+                    <img
+                      src={m.img}
+                      alt={m.name}
+                      loading="lazy"
+                      className="h-10 w-10 shrink-0 rounded-full border border-border object-cover bg-secondary"
+                    />
                     <div className="min-w-0 flex-1">
                       <p className="font-serif text-2xl leading-none">{m.name}</p>
                       <p className="mt-2 font-mono text-[10px] tracking-[0.15em] text-muted-foreground uppercase">
