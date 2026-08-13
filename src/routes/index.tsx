@@ -31,7 +31,12 @@ export const Route = createFileRoute("/")({
   component: Index,
 });
 
-const NAV = ["HOME", "MEMBERS", "EVENTS", "JOIN"];
+const NAV = [
+  { label: "HOME", href: "#top" },
+  { label: "MEMBERS", href: "#members" },
+  { label: "EVENTS", href: "#events" },
+  { label: "JOIN", href: "#join" },
+];
 
 const STATS = [
   { n: "1,800+", l: "ACTIVE MEMBERS" },
@@ -101,11 +106,11 @@ function Index() {
           <nav className="hidden gap-8 md:flex">
             {NAV.map((n) => (
               <a
-                key={n}
-                href="#top"
+                key={n.label}
+                href={n.href}
                 className="link-underline text-xs tracking-[0.15em] text-muted-foreground transition-colors hover:text-foreground"
               >
-                {n}
+                {n.label}
               </a>
             ))}
           </nav>
@@ -169,7 +174,7 @@ function Index() {
         </section>
 
         {/* ABOUT */}
-        <section className="border-t border-border">
+        <section id="about" className="border-t border-border">
           <div className="mx-auto max-w-6xl px-6 py-24 md:py-32">
             <Reveal>
               <Tag>// ABOUT_US</Tag>
@@ -258,7 +263,7 @@ function Index() {
         </section>
 
         {/* TEAM */}
-        <section className="border-t border-border">
+        <section id="members" className="border-t border-border">
           <div className="mx-auto max-w-6xl px-6 py-24 md:py-32">
             <Reveal>
               <Tag>// COMMUNITY</Tag>
