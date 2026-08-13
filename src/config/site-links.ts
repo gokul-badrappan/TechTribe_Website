@@ -11,12 +11,12 @@
 export const FOUNDERS = [
   {
     name: "Jai Lakshmi",
-    img: "/images/members/jai-lakshmi.svg",
+    img: "/images/members/jailakshmi.jpeg",
     linkedin: "https://www.linkedin.com/in/jai-lakshmi/",
   },
   {
     name: "Ram Pravesh Bharti",
-    img: "/images/members/ram-pravesh-bharti.svg",
+    img: "/images/members/ram-pravesh-bharti.jpeg",
     linkedin: "https://www.linkedin.com/in/ram-pravesh-bharti/",
   },
 ];
@@ -28,25 +28,25 @@ export const TEAM = [
   {
     name: "Gokul",
     role: "Director",
-    img: "/images/members/gokul.svg",
+    img: "/images/members/gokul.jpg",
     linkedin: "https://www.linkedin.com/in/gokulbadrappan/",
   },
   {
     name: "Ayush",
     role: "Event Management Lead",
-    img: "/images/members/ayush.svg",
+    img: "/images/members/ayush.jpeg",
     linkedin: "https://www.linkedin.com/in/ayush-aman-a21743258/",
   },
   {
     name: "Rishab",
     role: "Social Media Lead",
-    img: "/images/members/rishab.svg",
+    img: "/images/members/rishab.png",
     linkedin: "https://www.linkedin.com/in/rishabh-wasan/",
   },
   {
     name: "Harshith",
     role: "Designer Lead",
-    img: "/images/members/harshith.svg",
+    img: "/images/members/harshith.png",
     linkedin: "https://www.linkedin.com/in/harshithkolaparthi/",
   },
   {
@@ -58,7 +58,7 @@ export const TEAM = [
   {
     name: "Nameesh",
     role: "R&D Lead",
-    img: "/images/members/nameesh.svg",
+    img: "/images/members/nameesh.png",
     linkedin: "https://www.linkedin.com/in/nameesh-kj/",
   },
 ];
