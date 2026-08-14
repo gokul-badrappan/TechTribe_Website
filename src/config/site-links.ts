@@ -32,6 +32,12 @@ export const TEAM = [
     linkedin: "https://www.linkedin.com/in/gokulbadrappan/",
   },
   {
+    name: "Harshith",
+    role: "Designer Lead",
+    img: "/images/members/harshith.png",
+    linkedin: "https://www.linkedin.com/in/harshithkolaparthi/",
+  },
+  {
     name: "Ayush",
     role: "Event Management Lead",
     img: "/images/members/ayush.jpeg",
@@ -42,12 +48,6 @@ export const TEAM = [
     role: "Social Media Lead",
     img: "/images/members/rishab.png",
     linkedin: "https://www.linkedin.com/in/rishabh-wasan/",
-  },
-  {
-    name: "Harshith",
-    role: "Designer Lead",
-    img: "/images/members/harshith.png",
-    linkedin: "https://www.linkedin.com/in/harshithkolaparthi/",
   },
   {
     name: "Arpan",
